@@ -2,6 +2,13 @@
 name = "app_properties"
 version = "0.1.0"
 edition = "2021"
+description = "A Rust library for reading application properties from a file."
+license = "MIT"
+readme = "README.md"
+keywords = ["application", "properties"]
+categories = ["data-structures"]
+repository = "https://github.com/claudiomontchaves/app_properties"
+documentation = "https://docs.rs/app_properties"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
