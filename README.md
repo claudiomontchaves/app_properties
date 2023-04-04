@@ -16,7 +16,7 @@ port: 8080
 
 ```yaml
 [dependencies]
-app_properties = "0.1.1"
+app_properties = "0.1.2"
 ```
 
 ```rust

@@ -39,12 +39,12 @@ impl AppProperties {
     }
 
     /// Get a value for a key.
-    pub fn get(&self, key: &str) -> String {
+    pub fn get(&self, key: &str) -> &str {
         let value = match self.props_map.get(key) {
             Some(data) => data,
-            None => return "".to_string(),
+            None => return "",
         };
-        value.to_string()
+        value
     }
 }
 
